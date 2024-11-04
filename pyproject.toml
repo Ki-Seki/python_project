@@ -52,10 +52,12 @@ extend-select = [
     "PGH", # pygrep
     "RUF", # ruff checks
     "SIM", # flake8-simplify
-    "T20", # flake8-print
     "TCH", # flake8-type-checking
     "TID", # flake8-tidy-imports
     "UP",  # pyupgrade
+]
+ignore = [
+    "RUF001", # ambiguous-unicode-character-string
 ]
 
 [tool.ruff.lint.isort]
